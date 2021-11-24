@@ -1,0 +1,26 @@
+Icon logo : https://icons8.com/icons/set/plate
+
+
+Color Pallete
+===============================================================================================
+Primary : #425664
+Secondary : #C6AD8F
+Background : #F6F4F2
+
+
+Font Family 
+==============================================================================
+Header : Cormorant
+Text : courier new
+Logo : Mistral
+
+
+Referensi Design Web 
+================================================================================================
+Homepage : https://playabeauty.com/
+
+Login & Sign up : -
+
+Cart(Checkout) : https://dribbble.com/shots/5039057-Shopping-cart-V2
+
+Shop Page : https://preview.colorlib.com/#timezone

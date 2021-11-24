@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: courier new;
+	color: #425664;
+}
+
+::selection {
+	color: #F6F4F2;
+	background-color: #C6AD8F;
+}
+
+body {
+	display: flex;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===================================================Wrappper=========================================================*/
+.wrapper {
+	width: 70%;
+}
+
+
+
+/*Logo================================================================================================================*/
+.logo {
+	width: 100%;
+	padding: 30px 0 0 50px;
+	margin-bottom: 30px;
+}
+
+.logo a{
+	color: #C6AD8F;
+	font-family: mistral;
+	font-weight: 500;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+/*Tabel Produk========================================================================================================*/
+.product-list {
+	width: 100%;
+	padding: 0 50px 0 80px;
+}
+
+.product-list table {
+	width: 100%;
+}
+
+.product-list table tr {
+}
+
+.product-list table tr td{
+	padding: 40px 20px 40px 0;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #425664;
+	font-size: 16px;
+}
+
+.product-list tr th {
+	text-align: left;
+	padding: 20px 0;
+	font-size: 15px;
+	color: #C6AD8F;
+	letter-spacing: 2px;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	border-bottom: 1px solid #425664;
+}
+
+.product-list tr .h-product {
+	width: 320px;
+}
+
+.product-list tr .h-harga {
+	width: 120px;
+}
+
+.product-list tr .h-qty {
+	width: 100px;
+}
+
+.product-list tr .h-total {
+	width: 100px;
+}
+
+.product-list tr .h-hapus {
+	width: 20px;
+}
+
+.product-list table tr td img {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #425664;
+}
+
+.product-list tr td a {
+	color: rgba(66, 86, 100, .4);
+	text-decoration: none;
+	padding: 0 5px;
+	border-radius: 5px;
+	transition: .2s;
+	font-family: cormorant;
+	font-size: 15px;
+}
+
+.product-list tr td a:hover {
+	color: #fff;
+	background-color: #FF5C58;
+}
+
+.link-shop {
+	margin: 80px 0 100px 40px ;
+
+}
+
+.link-shop a {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	background-color: #C6AD8F;
+	padding: 5px 20px;
+	border-radius: 5px;
+	transition: 0.1s;
+}
+
+.link-shop a:hover {
+	color: #C6AD8F;
+	background-color: transparent;
+	border: 1px solid #C6AD8F;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===================================================Checkout Link====================================================*/
+.checkout-link {
+	width: 30%;
+	height: 100vh;
+	background-color: #F6F4F2;
+	position: fixed;
+	right: 0;
+}
+
+.checkout-link .subtotal {
+	color: #425664;
+	font-family: cormorant;
+	font-size: 25px;
+	width: 100%;
+	padding: 0 80px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.checkout-link .subtotal em {
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+.checkout-link .desc {
+	font-size: 14px;
+	font-style: italic;
+	padding: 0 60px;
+}
+
+.checkout {
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.checkout a {
+	width: 60%;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 20px;
+	color: #fff;
+	background-color: #425664;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .1s;
+}
+
+.checkout a:hover {
+	color: #425664;
+	background-color: transparent;
+	border: 2px solid #425664;
+}

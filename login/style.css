@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: courier new;
+	color: #425664;
+}
+
+::selection {
+	color: #F6F4F2;
+	background-color: #C6AD8F;
+}
+
+
+/*Form================================================================================================================*/
+form {
+	width: 450px;
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+form h1 {
+	width: 100%;
+	color: #C6AD8F;
+	font-family: cormorant;
+	font-size: 30px;
+	font-weight: 200;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form ul {
+	width: 100%;
+	padding: 50px;
+	list-style-type: none;
+}
+
+form ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+form ul li label {
+	width: 100%;
+	font-size: 15px;
+}
+
+form ul li input {
+	width: 100%;
+	height: 35px;
+	font-size: 15px;
+	background: #F6F4F2;
+	outline: none;
+	border: none;
+	padding: 0 5px;
+}
+
+form ul li input:focus{
+	border: 1px solid #C6AD8F;
+}
+
+form ul li button {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #425664;
+	background: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	transition: .3s;
+	cursor: pointer;
+}
+
+form ul li button:hover {
+	color: #F6F4F2;
+	background: #425664;
+}
+
+form ul li a {
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/*Kesalahan*/
+.salah {
+	color: #FF4B5C;
+	margin: 10px 0;
+	width: 100%;
+}

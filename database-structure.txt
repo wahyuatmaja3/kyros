@@ -1,0 +1,10 @@
+Database : Kyros
+=========================================================================================
+Tabel: user
+id_user, nama_user, pass_user,
+
+Tabel: product
+id_prod, nama_prod, harga_prod, stock_prod, img_prod, cat_product, sub-cat_prod
+
+
+

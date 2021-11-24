@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: courier new;
+	color: #425664;
+}
+
+::selection {
+	color: #F6F4F2;
+	background-color: #C6AD8F;
+}
+
+/*Navbar=============================================================================================================*/
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	border: 1px solid #425664;
+	padding: 0 60px;
+	position: fixed;
+	background-color: #fff;
+}
+
+.navbar .logo {
+	text-decoration: none;
+	color: #425664;
+	font-size: 40px;
+	font-family: mistral;
+}
+
+.navbar ul {
+	list-style-type: none;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.navbar ul li:hover {
+	text-decoration: underline;
+}
+
+.navbar ul li a {
+	color: #425664;
+	text-decoration: none;
+}
+
+#page {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*Header============================================================================================================*/
+.header {
+	width: 100%;
+	height: 300px;
+	background-color: rgba(198, 173, 143, .3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #C6AD8F;
+}
+
+.header h1 {
+	font-family: cormorant;
+	font-size: 50px;
+	color: #425664;
+}
+
+/*Shop Field===================================================================================================================*/
+.shop-field {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0 80px;
+	margin: 100px 0 ;
+}
+
+/*Top Field------------------*/
+.top-field {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.top-field p {
+	font-family: cormorant;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.top-field select {
+	width: 150px;
+	height: 40px;
+	font-size: 12px;
+	border-radius: 20px;
+	text-align: center;
+	outline: none;
+	cursor: pointer;
+}
+
+
+/*Product Field--------------*/
+.product-field {
+	width: 100%;
+	display: flex;
+	padding: 0 20px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.product-box {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 325px;
+	height: 480px;
+	border: 1px solid #425664;
+	margin-top: 50px;
+}
+
+.product-box img {
+	width: 325px;
+	height: 325px;
+	border: 1px solid #425664;
+}
+
+.product-box .nama {
+	width: 100%;
+	font-size: 15px;
+	padding: 0 20px;
+	color: inherit;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.product-box .harga {
+	font-size: 15px;
+	width: 100%;
+	font-weight: bold;
+	color: inherit;
+	text-align: center;
+}
+
+.add {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 20px;
+	margin-bottom: 10px;
+}
+
+.product-box .add a {
+	font-family: cormorant;
+	font-size: 12px;
+	color: #F6F4F2;
+	background-color: #425664;
+	font-weight: bold;
+	padding: 5px 20px;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.product-box .add a:hover {
+	color: #425664;
+	background-color: #FFF;
+	border: 1px solid #425664;	
+	padding: 4px 20px;
+}
+
+.add .stock {
+	font-size: 12px;
+}
+
+/*Footer==========================================================================================================================*/
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: #425664;
+	display: flex;
+	align-items: center;
+}
+
+.footer p {
+	color: #F6F4F2;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+}
